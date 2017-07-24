@@ -6,7 +6,7 @@ W est un framework minimaliste. Il suit les structures et les grand thèmes des 
 
 #### Pour télécharger le framework et en consulter la documentation :
 
-1. Dans un terminal : 
+1. Dans un terminal :
 
   ```
   cd c:/xampp/htdocs
@@ -20,3 +20,22 @@ W est un framework minimaliste. Il suit les structures et les grand thèmes des 
 * Axel Wargnier : [@axessweb](https://github.com/axessweb) (lead dev)
 * Guillaume Sylvestre : [@gsylvestre](https://github.com/gsylvestre) (original dev)
 * Matthieu Mota : [@MatthieuMota](https://github.com/MatthieuMota)
+Social network
+
+Projet de réseau social avec le framework W pour apprendre la base des frameworks PHP en MVC.
+
+Cloner le projet
+
+cd C:\xampp\htdocs
+git clone https://github.com/WebforceLille4/SocialNetwork.git NOM_DU_PROJET
+Créer le fichier config.php
+
+Vous devez créer le fichier config.php en partant de config.dist.php
+
+Installer les dépendances PHP
+
+composer install
+Installer les dépendances CSS, JS
+
+cd public/assets
+npm install
